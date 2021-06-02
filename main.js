@@ -70,9 +70,10 @@ function draw() {
             document.getElementById("song").innerHTML = "Playing = Harry Potter - Main Theme.mp3";
         }
     }
+}
 
-    function play() {
-        song.play();
-        song.setVolume(1);
-        song.rate(1);
-    }
+function play() {
+    song.play();
+    song.setVolume(1);
+    song.rate(1);
+}
